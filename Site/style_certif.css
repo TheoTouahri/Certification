@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    background-image: url('batman_fond.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide {
+    display: flex;
+    background-color: skyblue;
+    border-radius: 35px 20px 20px 11px;
+    border: 6px outset #ffffff;
+}
+
+.trame {
+    display: flex;
+    background-color: forestgreen;
+    border-radius: 35px 20px 20px 11px;
+    border: 6px outset #ffffff;
+}
+
+.batman {
+    display: flex;
+    background-color: yellow;
+    border-radius: 35px 20px 20px 11px;
+    border: 6px outset #ffffff;
+}
+
+.slide a {
+    text-decoration: none;
+}
+
+.trame a {
+    text-decoration: none;
+}
+
+.batman a {
+    text-decoration: none;
+}
