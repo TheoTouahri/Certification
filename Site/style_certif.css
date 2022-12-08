@@ -1,39 +1,31 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto_Slab/static/RobotoSlab-Medium.ttf') format("ttf");
+}
+
 body {
+    font-family: 'Roboto', sans-serif;
     display: flex;
     background-image: url('batman_fond.png');
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
 }
 
-.slide {
+.link {
+    font-size: 14px;
+    color: #000000;
+}
+
+.trame, .batman, .slide {
     display: flex;
-    background-color: skyblue;
+    background: linear-gradient(90deg, #aab7b9, #b9acaa);
     border-radius: 35px 20px 20px 11px;
-    border: 6px outset #ffffff;
+    border: 6px outset #a7aab8;
+    box-shadow: 6px 6px 0px rgba(0, 0, 0);
+    width: 100%;
 }
 
-.trame {
-    display: flex;
-    background-color: forestgreen;
-    border-radius: 35px 20px 20px 11px;
-    border: 6px outset #ffffff;
-}
-
-.batman {
-    display: flex;
-    background-color: yellow;
-    border-radius: 35px 20px 20px 11px;
-    border: 6px outset #ffffff;
-}
-
-.slide a {
-    text-decoration: none;
-}
-
-.trame a {
-    text-decoration: none;
-}
-
-.batman a {
+.slide a, .trame a, .batman a {
     text-decoration: none;
 }
